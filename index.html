@@ -18,8 +18,8 @@
             <li><a href="#">Shop</a></li>
             <li><a href="#">Gallery</a></li>
             <li><a href="#">Contact</a></li>
-            <div class="handle">Menu</div>
         </ul>
+        <div class="handle">Menu</div>
     </nav>
     <section>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem laborum libero modi officiis pariatur quaerat
@@ -44,5 +44,10 @@
         quos rem repellendus sed sequi sint velit! Doloremque impedit in laboriosam laudantium nam obcaecati, quis.
         Aspernatur cupiditate delectus doloribus enim esse et quae ullam!
     </section>
+    <script>
+        $('.handle').on('click', function(){
+            $('nav ul').toggleClass('showing');
+        })
+    </script>
 </body>
 </html>
