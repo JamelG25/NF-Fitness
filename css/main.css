@@ -2,12 +2,13 @@
 /*1. HEADER STYLING*/
 /*BODY STYLING*/
 
+/*LAYOUT STYLYING*/
 body{
     margin: 0;
     padding: 0;
     font-family: sans-serif;
 }
-
+/*HEADER STYLING*/
 header{
     background: #00795f;
     width: 100%;
@@ -38,6 +39,7 @@ nav ul li{
 nav ul li:hover{
     background-color: #399077;
 }
+/*BODY STYLYING*/
 section{
     line-height: 1.5em;
     font-size: 0.9em;
@@ -55,7 +57,6 @@ section{
     color: white;
     display: none;
 }
-
 @media screen and (max-width: 580px) {
     nav ul{
         max-height: 0;
