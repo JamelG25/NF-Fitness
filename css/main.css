@@ -1,6 +1,7 @@
-/*LAYOUT STYLING*/
-/*1. HEADER STYLING*/
-/*BODY STYLING*/
+/*1. LAYOUT STYLING*/
+/*2. HEADER STYLING*/
+/*3. PARALLAX*/
+/*4. BODY STYLING*/
 
 /*LAYOUT STYLYING*/
 body{
@@ -39,6 +40,11 @@ nav ul li{
 nav ul li:hover{
     background-color: #399077;
 }
+/*3. PARALLAX*/
+.content {
+
+}
+
 /*BODY STYLYING*/
 section{
     line-height: 1.5em;
