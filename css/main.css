@@ -45,10 +45,21 @@ nav ul li:hover{
     height: 1500px;
     background-color: #333;
 }
-
 .parallax-bg{
     padding: 300px 0;
     background-image: url('../images/nvfitness.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+.parallax-bg h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: #000;
+    font-size: 60px;
+    font-family: Arial;
 }
 
 /*BODY STYLYING*/
