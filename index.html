@@ -54,7 +54,17 @@
     <script>
         $('.handle').on('click', function(){
             $('nav ul').toggleClass('showing');
-        })
+        });
+
+        (function(){
+           var documentEl = $(document),
+               parallaxbg = $('div.parallax-bg');
+
+               document.on('scroll', function(){
+                    var currScrollPos = documentEl.scrollTop();
+                    parallaxbg.css('background-position', '0' + -currScrollPos/4 + 'px');
+            });
+        })();
     </script>
 </body>
 </html>
