@@ -42,7 +42,13 @@ nav ul li:hover{
 }
 /*3. PARALLAX*/
 .content {
+    height: 1500px;
+    background-color: #333;
+}
 
+.parallax-bg{
+    padding: 300px 0;
+    background-image: url('../images/nvfitness.jpeg');
 }
 
 /*BODY STYLYING*/
